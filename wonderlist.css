@@ -1,0 +1,227 @@
+/* primary color #52DE97, secondary color #2C7873, complimentry colors #C0FFB3, #ffba5a
+9:45
+#FFBA5A * */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.wunder-body1{
+	line-height: 1;
+	background-color: #52DE97;
+	background-image: url(https://images.unsplash.com/photo-1525124568695-c4c6cd3a8842?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Universal Elements*/
+h1 h2 h3 h4 h5 h6 {
+	font-family: 'ubuntu';
+}
+h1 {
+	font-size: 3rem;
+	color:#C0FFB3
+}
+h2 {
+	font-size: 2.5rem;
+	color: #ffba5a;
+}
+p {
+	font-family: 'muli';
+	color: white;
+}
+header {
+	display: flex;
+	align-content: center;
+	justify-content: flex-end;
+	height:50px;
+	background-color: white;
+}
+.nav {
+	display: flex;
+	margin-right: 5%;
+}
+.nav a {
+	font-family:'Muli';
+	text-decoration: none;
+	font-size: 1rem;
+	color:black;
+}
+.nav button  {
+	border: 2px solid black;
+	border-radius: 5%;
+}
+/*Landing Page*/
+.MainPage {
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15%;
+}
+.MainPage p {
+	font-family:'Muli' ;
+	font-size: 2rem;
+	margin-top: 3%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+.Download{
+	display:flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+.Download button {
+	border: 2px solid orange;
+	border-radius: 5%;
+	background-color: orange;
+	color:white;
+	font-family: 'Ubuntu';
+	width: 15rem;
+	height: 2rem;
+}
+
+/* *******ABOUT********* */
+
+
+
+.wunder-body2 {
+	line-height: 1;
+	background-color: #2C7873;	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.img-bg {
+	background-image: url(https://images.unsplash.com/photo-1459111701074-c0ee7842cccb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
+}
+.about {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #52DE97;
+	font-size: 7rem;
+	margin-top: 0;
+	margin-bottom: 5%;
+}
+.about-para {
+	display: flex;
+	flex-direction: row;
+	font-size: 2rem;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	padding-bottom: 10%;
+}
+.about-para p{
+	color: #C0FFB3;
+}
+.team-title {
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5%;
+	font-size:7rem;
+
+}
+.team-leader{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	padding: 10%;
+}
+.team-leader img {
+	width: 18rem;
+
+}
+
+
+.team-guys {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;	
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+.react1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:solid #C0FFB3 2px;
+	margin: 5%;
+	padding: 20%;
+	
+}
+.react1 img {
+	width: 18rem;
+
+}
+.react2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:solid #C0FFB3 2px;
+	margin: 5%;
+	padding: 20%;
+}
+.react2 img {
+	width: 18rem;
+
+}
+.UI {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border:solid #C0FFB3 2px;
+	margin: 5%;
+	padding: 20%;
+}
+.UI img {
+	width: 18rem;
+
+}
