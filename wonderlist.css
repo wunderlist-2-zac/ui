@@ -137,14 +137,14 @@ header {
 	flex-direction: row;
 	justify-content: center;
 	color: #52DE97;
-	font-size: 7rem;
+	font-size: 5rem;
 	margin-top: 0;
 	margin-bottom: 5%;
 }
 .about-para {
 	display: flex;
 	flex-direction: row;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 5%;
@@ -158,8 +158,9 @@ header {
 	flex-direction: center;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 5%;
-	font-size:7rem;
+	margin-bottom: 3%;
+	font-size:5rem;
+	border-bottom: dotted #C0FFB3 2px;
 
 }
 .team-leader{
@@ -167,8 +168,10 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	padding: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .team-leader img {
 	width: 18rem;
@@ -183,6 +186,7 @@ header {
 	align-items: center;	
 	margin-left: 40%;
 	margin-right: 40%;
+	margin-bottom: 5%;
 }
 
 .react1 {
