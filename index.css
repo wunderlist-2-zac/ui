@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image: url(https://images.unsplash.com/photo-1554286210-86b4daa0471a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Universal Elements*/
+h1 {
+	font-family:'Ubuntu', sans-serif;
+	font-size: 3rem;
+	color:white
+}
+#header {
+	background-color: rgba(255,255,255,0.6);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav {
+	display: flex;
+	margin-left: 80%;
+	margin-top: .5%;
+
+}
+.nav a {
+	font-family:'Muli';
+	text-decoration: none;
+	font-size: 1rem;
+	color:black;
+}
+.nav a:hover {
+	color:#2C7873;
+	text-decoration: underline;
+}
+.nav .About {
+}
+.nav button  {
+	border: 2px solid black;
+	border-radius: 5%;
+	background-color: rgba(255,255,255,0.6);
+}
+.logo {
+	font-family: 'Pacifico', cursive;
+}
+.logo a {
+	text-decoration: none;
+	color:#2C7873;
+	font-size: 1.5rem;
+}
+.Footer {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	margin-top: 5%;
+	background-color: rgba(255,255,255,0.6);
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+.Footer p {
+	font-size: 1rem;
+	color: white;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
+}
+.Footer .logo {
+	display:flex;
+	justify-content: center;
+	margin-top: .5%;
+	color:#2C7873 ;
+}
+/*Landing Page*/
+.MainPage {
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15%;
+}
+.MainPage p {
+	font-family:'Muli' ;
+	color: white;
+	font-size: 2rem;
+	margin-top: 3%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+}
+.Download{
+	display:flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+.Download button {
+	background-color: orange;
+	color:white;
+	font-family: 'Ubuntu';
+	font-size: 1rem;
+	width: 15rem;
+	height: 3rem;
+}
+.Download button:hover {
+	background-color: #2C7873;
+}
+
