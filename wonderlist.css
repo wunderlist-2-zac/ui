@@ -61,10 +61,15 @@ h1 {
 h2 {
 	font-size: 2.5rem;
 	color: #ffba5a;
+	text-decoration: none;
 }
 p {
 	font-family: 'muli';
 	color: white;
+}
+a {
+	text-decoration: none;
+	color: #ffba5a;
 }
 header {
 	display: flex;
@@ -175,6 +180,7 @@ header {
 }
 .team-leader img {
 	width: 18rem;
+	height: 18rem; 
 
 }
 
@@ -183,7 +189,8 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	align-items: center;	
+	align-items: center;
+	text-decoration: none;	
 	margin-left: 40%;
 	margin-right: 40%;
 	margin-bottom: 5%;
@@ -199,8 +206,11 @@ header {
 	padding: 20%;
 	
 }
+
 .react1 img {
 	width: 18rem;
+	height: 18rem; 
+
 
 }
 .react2 {
@@ -214,6 +224,8 @@ header {
 }
 .react2 img {
 	width: 18rem;
+	height: 18rem; 
+
 
 }
 .UI {
@@ -227,5 +239,31 @@ header {
 }
 .UI img {
 	width: 18rem;
+	height: 18rem;
+}
+
+
+/************ media queries ************/
+
+
+@media (max-width: 500px){
+
+	.team-guys {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;	
+		margin-left: 40%;
+		margin-right: 40%;
+		margin-bottom: 5%;
+	}
+
+	.about-para p{
+		color: #C0FFB3;
+		text-align: center;
+	}
+	.team-leader p{
+		text-align: center;
+	}
 
 }
