@@ -1,6 +1,6 @@
-html, body
+html, body, p
  /* div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6,  blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -72,24 +72,28 @@ h1 {
 nav {
 	display: flex;
 	flex-direction: row;
-	width:300px;
+	width:289px;
 	justify-content: center;
 	justify-content: space-between;
 }
 nav a {
 	font-family:'Ubuntu';
 	text-decoration: none;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	color:black;
 	display: flex;
 	justify-content: center;
+}	
+nav .About {
+margin-top: 12%;
+color: white;
 }
+
 nav a:hover {
 	color:#2C7873;
 	text-decoration: underline;
 }
-.nav .About {
-}
+
 nav button  {
 	border: 2px solid black;
 	border-radius: 5%;
@@ -102,7 +106,7 @@ nav button  {
 .logo a {
 	text-decoration: none;
 	color:#2C7873;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 .Footer {
 	display: flex;
@@ -122,11 +126,13 @@ nav button  {
 	margin-right: 5%;
 	text-align: center;
 	font-family: "Ubuntu";
+	line-height: 1.3rem;
 }
 .Footer .logo {
 	display:flex;
 	justify-content: center;
-	/* margin-top: .5%; */
+	margin-top: .5%;
+	margin-bottom: .5%;
 	color:#2C7873 ;
 }
 .Footer a {
@@ -170,7 +176,7 @@ nav button  {
 }
 
 
-/*Media Queries*/
+/* Media Queries */
 @media (max-width:500px) {
 .Footer p {
 	font-size: .7rem;
@@ -179,5 +185,13 @@ nav button  {
 	text-align: center;
 	font-family: "Ubuntu";
 	color:white;
+	line-height: normal;
+	}
+nav a {
+	font-size: 1rem;
+}
+.logo a {
+	font-size: 1.5rem;
 	}
 }
+
